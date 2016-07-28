@@ -72,16 +72,19 @@ class AuthActivity : AppCompatActivity() {
                     Toast.LENGTH_SHORT).show()
             return
         }
+        Log.d(TAG, "email = $email, password = $password")
+        // exeptionの順番に注意。
+        // FirebaseAuthWeakPasswordExceptionをチェックしてからFirebaseAuthInvalidCredentialsExceptionの順でチェックすること
         auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         Toast.makeText(applicationContext, "登録完了&ログイン！",
                                 Toast.LENGTH_SHORT).show()
-                    } else if (task.exception is FirebaseAuthInvalidCredentialsException) {
-                        Toast.makeText(applicationContext, "emailの形式を確認してください",
-                                Toast.LENGTH_SHORT).show()
                     } else if (task.exception is FirebaseAuthWeakPasswordException) {
                         Toast.makeText(applicationContext, "パスワードは6文字以上にしてください",
+                                Toast.LENGTH_SHORT).show()
+                    } else if (task.exception is FirebaseAuthInvalidCredentialsException) {
+                        Toast.makeText(applicationContext, "emailの形式を確認してください",
                                 Toast.LENGTH_SHORT).show()
                     } else {
                         Log.w(MainActivity.TAG, "createUserWithEmailAndPassword", task.exception);
