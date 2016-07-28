@@ -5,6 +5,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
+import com.google.firebase.auth.FirebaseAuthWeakPasswordException
 import kotlinx.android.synthetic.main.activity_auth.*
 
 class AuthActivity : AppCompatActivity() {
@@ -24,7 +26,7 @@ class AuthActivity : AppCompatActivity() {
         login.setOnClickListener {
             val email = email.text.toString()
             val password = password.text.toString()
-            signIn(email, password, object: OnResponseListener {
+            signIn(email, password, object : OnResponseListener {
                 override fun isSuccessful(flag: Boolean) {
                     Log.d(TAG, "isSuccessfull = $flag")
                     startActivity(MainActivity.startIntent(this@AuthActivity))
@@ -64,13 +66,22 @@ class AuthActivity : AppCompatActivity() {
 
     }
 
-    fun signUp(email:String, password:String) {
+    fun signUp(email: String, password: String) {
+        if (email.isNullOrEmpty() || password.isNullOrEmpty()) {
+            Toast.makeText(applicationContext, "emailまたはpasswordを入力してください",
+                    Toast.LENGTH_SHORT).show()
+            return
+        }
         auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this) { task ->
-                    Log.d(MainActivity.TAG, "createUserWithEmailAndPassword:onComplete:" + task.isSuccessful);
-
                     if (task.isSuccessful) {
                         Toast.makeText(applicationContext, "登録完了&ログイン！",
+                                Toast.LENGTH_SHORT).show()
+                    } else if (task.exception is FirebaseAuthInvalidCredentialsException) {
+                        Toast.makeText(applicationContext, "emailの形式を確認してください",
+                                Toast.LENGTH_SHORT).show()
+                    } else if (task.exception is FirebaseAuthWeakPasswordException) {
+                        Toast.makeText(applicationContext, "パスワードは6文字以上にしてください",
                                 Toast.LENGTH_SHORT).show()
                     } else {
                         Log.w(MainActivity.TAG, "createUserWithEmailAndPassword", task.exception);
@@ -78,9 +89,10 @@ class AuthActivity : AppCompatActivity() {
                                 Toast.LENGTH_SHORT).show()
                     }
                 }
+
     }
 
-    fun signIn(email:String, password:String, onResponseListener: OnResponseListener) {
+    fun signIn(email: String, password: String, onResponseListener: OnResponseListener) {
         if (email.isNullOrEmpty() || password.isNullOrEmpty()) {
             Log.d(TAG, "emailまたはpasswordを入力してください")
             return
