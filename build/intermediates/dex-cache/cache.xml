@@ -2,165 +2,256 @@
 <items version="2" >
 
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.2_6ce32cee94a59bb30e165b04bb8fe225af85a7f8.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.2.1_0f0414e344b3ff0d00000aa5c0f138cd3488bd54/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.1-2/bd3717a8dd4a5f92cac43a4ec1726a1927bd2e03/kotlin-runtime-1.0.1-2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="bd3717a8dd4a5f92cac43a4ec1726a1927bd2e03">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/kotlin-runtime-1.0.1-2_3ab46f49a2fe780c71764ae2b7c93a8d57bfd505.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_294c2275a7dfa135a468b9de0038953f8d559341/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Downloads/Android Studio.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="29e762ef46d0cb2b648eb3d25eeb2b29853579fe">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.0-alpha3_b8147a53edfc88f9f7e2ef3cd28d9349df51c8e4.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha4/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="2a25fdd20d5f75558b6011724bbfbb7d97c7f5b7">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha4_a35926329603943e3260c888cc438952f253db01/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0-beta1_b0311e03fdde1d43d9e70ea79246835a79347d75.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6a60aba133a27a3aea0b9fc819a39455b07b743b">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_571da3f87a1f8e2817e33add5d5145315dc54fd5/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.1-2/394823fb32dc558cc9c2b907c9df5e39caa52f2c/kotlin-stdlib-1.0.1-2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="394823fb32dc558cc9c2b907c9df5e39caa52f2c">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/kotlin-stdlib-1.0.1-2_e8713f56e596299eb4f59d02abff373325907d01.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.2.1_9ac8cf2257705d0f0a77722770270dc5cd9bf82c/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.2_ef47b3177411c0f4862d60fdda78327b6a2f8080.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="9340c4f95a4e3916c9ad70296e24576743743712">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.1.0_4f5bae5cb97bf8069cfe37b4b335074572a489de/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="922c24fbfc4247947fcfaf2b95f295a16a8c3d17">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.0.2_2743997bdad340f11e0051d336e3d0dec121c2fa.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.0.3/20738122b53399036c321eeb84687367757d622a/kotlin-stdlib-1.0.3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="20738122b53399036c321eeb84687367757d622a">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-stdlib-1.0.3_1a52837b1295a1dd14484f6854359c4fcf32a7e9/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-beta1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="3c0208faf42864e6695345e64d1b955070263819">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0-beta1_e9228bfc84551f6d3ea8371d62e350ce6c0cbe52.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Downloads/Android Studio.app/Contents/gradle/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha4/constraint-layout-solver-1.0.0-alpha4.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="cdeb2aecf7557aa5f8d2ac0e37a0e7760f48c513">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha4_706e813dc544813bd9ad07623c010579fb763112/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a511c684ea4c2cf31a3377d51e7677cb76696e07">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.2_7c3317babd824c173a520478da77043e0b6f02a6.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/design/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="8620c018c108eed501bbdb85324b79136373ea44">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.1.0_eb51d5ad19d48319b2739c581a26cd4c8002950e/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="51a11c41a08f099a204e1b8dcc04f27217de50ec">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.2_c8ca02559cf0a3b89172c7e1ca58e2b3399e6906.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="8c854b30eca6c442fe842e66cd3b58c5dd08996f">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.1.0_0b125075baf3e923be80c5612128f2722a428996/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-beta1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="97f82fd0c185bd2881a93646954f2429be4baa86">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0-beta1_598b380791db14442f94fb7fd5aaa41a78c6413c.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="4157816e81f0820983957687e9a6f4c1cea0f1e5">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.1.0_d1e79c68239968646d9989cd92e17572e332fa5e/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="568d5bda0b4d51f90d978ace369bb9ad024d2057">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.0.2_565e28e34a325259c40ce8ed4259a0ff82bea5c9.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/libs/internal_impl-24.1.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="8c7087216946c546f85a1242a2794c0f271e092c">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.1.0_6c886ffb753dc48cdd08be7470c11b45d1a7643e/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-beta1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0-beta1_53116a4e09f8af8e497a676d79daa5fbb2b62211.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.2.1_2e199d45e52be5f364780bcc63e84228064ca470/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.2_0bb75db2d7383da6d706ef758040579dd53defb1.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_6bc339248f0497e569cf9c3f4201f9c4a5d1184f/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.2_962d253640890044c0e2be98739fa6df419df38f.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.2.1_afeefee9453b5c57e6410513fc9ebdc67d6e3b17/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/libs/internal_impl-24.0.0-beta1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="23d564c059873f398dc5d967f56791a66472ce76">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0-beta1_06a7ce0d4819845d50180fb469278a29da4f3630.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.2.1_660590d3d79f589a27b7821ef9feaa5ef96033ae/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4ec890171a97b5ab98292f131aa784e0f3792c73">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.0.2_5493a95827a70a172e427e5145672bcc1f54dcc3.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.2.1_10a5859dd3ff28352a3ca0f5be998f4dc167eb6c/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a2bcc25d161a84d8eabde61806dad90029b3ff15">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.0-alpha3_94f9d64b2ae23e65fa90db27b8932e52502cb194.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="ba8e8860f7e033c3a503b682337a4bafdf56e6ee">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.1.0_9c88e4063f00f8ea3ae5410b90852cfcd1856116/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b3d0809a742c5f768c6aa9efc6decd5c1d6cd227">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.2_3149fcc2a51997c5b695d2263af4be97b8aaabb1.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="65959ba3bad9b071370f28f5c86a00c74601923f">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_ad167f1bef08ff238c5b78446141d1454e4e1423/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="79e298d7fed2fcada58da7032d07d34ee198a545">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.0.2_183fc84bb2bb7722e2c1396e1f3e16939258695a.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/percent/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="09ab74eff8c091bc37ad9dd097b29909634fc0cb">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-24.1.0_1864e9e1fa5d2e07cf705f1c224e5aa2646bcb79/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-beta1/support-annotations-24.0.0-beta1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0-beta1_784754233b924581e9cfe6c83a3568ce5d4ed10d.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.2.1_2a818d9fe5ac4fa23f834c27c613b51fac64d0e9/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fa472b7cbd3897bf6bed6068ac0b00e494987688">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.0.2_89e01ce10af0789a07fd635aa274a93f6776e8dc.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_6eaa5dfe6a30e672afd37265e261b4e6598b796f/classes.dex" />
     </item>
     <item
-        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9819419ce8d79f3f81a0fc70f9345ac8c843af9c">
-        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.0.2_3ed2c40d986e3bacdf934be906a51204d7c56efc.jar" />
+        is-multidex="true"
+        jar="/Users/cymedix/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.0/support-annotations-24.1.0.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="8a23146e1a8c7cb4758e3d3f62449213f1e51f67">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.1.0_6f03a576ef77a8a9639696e7445ffc79e6cb3b7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cymedix/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-runtime/1.0.3/10f40d016700cf4287e49fa1d51c2a8507e9b946/kotlin-runtime-1.0.3.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="10f40d016700cf4287e49fa1d51c2a8507e9b946">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/kotlin-runtime-1.0.3_15d07d988b7271b276547797312dcba69b1c468c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.2.1_93fb3c7b533b9aa8e797fd630323b3e32ef4701a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="e096a5d8343cc9c5a9f6eded36bd0f4c82f8c83e">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.1.0_422db68caf6266ca64ad96619872db24f95541f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.2.1_c00cac7b88e11a11ba2e16778a231033eff878fe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="false"
+        revision="24.0.0"
+        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
+        <dex dex="/Users/cymedix/Dropbox/AndroidProject/firebase/FirebaseTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.2.1_86e685af95cfb03c2ad8522c43a507b97e246190/classes.dex" />
     </item>
 
 </items>

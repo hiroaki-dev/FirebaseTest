@@ -1,5 +1,7 @@
 package me.hiroaki.firebasetest
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
@@ -15,40 +17,15 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     companion object {
         val TAG = MainActivity::class.java.simpleName
+        fun startIntent(context: Context) = Intent(context, MainActivity::class.java)
     }
-
-    val auth = FirebaseAuth.getInstance()
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        login.setOnClickListener {
-            val email = email.text.toString()
-            val password = password.text.toString()
-            signIn(email, password)
-        }
-
-        logout.setOnClickListener {
-            auth.signOut()
-            Toast.makeText(this, "ログアウトしました", Toast.LENGTH_SHORT).show()
-        }
-
-        auth.addAuthStateListener { firebaseAuth ->
-            val user = firebaseAuth.currentUser;
-            if (user != null) {
-                status.text = "ログイン中"
-                Log.d(TAG, "onAuthStateChanged:signed_in:" + user.uid);
-            } else {
-                status.text = "未ログイン"
-                Log.d(TAG, "onAuthStateChanged:signed_out");
-            }
-        }
-
         sessions.adapter = setupSpinner()
-
-
 
         val database = FirebaseDatabase.getInstance()
         database.setPersistenceEnabled(true)
@@ -83,29 +60,4 @@ class MainActivity : AppCompatActivity() {
         return adapter
     }
 
-    fun signUp(email:String, password:String) {
-        auth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this) { task ->
-                    Log.d(TAG, "createUserWithEmailAndPassword:onComplete:" + task.isSuccessful);
-
-                    if (!task.isSuccessful) {
-                        Toast.makeText(applicationContext, "Authentication failed.",
-                                Toast.LENGTH_SHORT).show();
-                    }
-                }
-    }
-
-    fun signIn(email:String, password:String) {
-        auth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this, { task ->
-                    if (task.isSuccessful) {
-                        Toast.makeText(applicationContext, "ログイン！",
-                                Toast.LENGTH_SHORT).show();
-                    } else {
-                        Log.w(TAG, "signInWithEmail", task.exception);
-                        Toast.makeText(applicationContext, "Authentication failed.",
-                                Toast.LENGTH_SHORT).show();
-                    }
-                })
-    }
 }
