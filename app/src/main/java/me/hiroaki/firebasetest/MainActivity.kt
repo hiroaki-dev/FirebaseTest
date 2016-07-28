@@ -28,9 +28,10 @@ class MainActivity : AppCompatActivity() {
         sessions.adapter = setupSpinner()
 
         val database = FirebaseDatabase.getInstance()
-        database.setPersistenceEnabled(true)
+//        true: そのユーザ以外からの編集を許可しない
+//        database.setPersistenceEnabled(true)
 
-        val databaseReference = database.getReference()
+        val databaseReference = database.reference
         databaseReference.keepSynced(true)
 
         submit.setOnClickListener {
