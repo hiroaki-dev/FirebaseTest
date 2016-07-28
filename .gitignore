@@ -1,4 +1,4 @@
-#pk
+*.apk
 *.ap_
 *.dex
 *.class
